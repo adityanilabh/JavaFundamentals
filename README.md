@@ -1,2 +1,2 @@
-# Parking-Booking
-Project evaluation on simple parking booking system with various functionalities like booking hour, pricing, availability etc.
+# TargetDP
+Making this repository so that anyone can solve problems based on dp and i will make a category of problems too.
