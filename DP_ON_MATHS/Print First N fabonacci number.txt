@@ -1,0 +1,28 @@
+ vector<long long> printFibb(int n) 
+    {
+        //code here
+        vector<long long>res1;
+        if(n<=2)
+        {
+            res1.push_back(1);
+            if(n==2)
+            {
+                res1.push_back(1);
+            }
+            return res1;
+        }
+        else 
+        {
+            res1.push_back(1);
+            res1.push_back(1);
+            long long prevPrev=1,prev=1,current=0;
+            for(int i=3;i<=n;i++)
+            {
+                current=prev+prevPrev;
+                res1.push_back(current);
+                prevPrev=prev;
+                prev=current;
+            }
+        }
+        return res1;
+    }
