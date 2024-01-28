@@ -3,3 +3,6 @@
 3. java collection is a framework where set of classes and interface is already made.
     we just have to implement it in our class or code.
 4. Before JDK 1.2, vectors arrays were used .
+5. Iterable interface is the root interface for the entire collection framework. The collection interface extends the iterable interface.
+
+6. In Java, when you declare a variable, you use the interface type on the left-hand side and the implementing class on the right-hand side. This allows you to take advantage of polymorphism, where you can use any class that implements the specified interface.

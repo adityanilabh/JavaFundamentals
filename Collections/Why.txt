@@ -1,0 +1,22 @@
+Q> difference betwenn arralist and vector in collectoin, if arraylist is a dynamic array, then why do we use vector?
+
+--Both ArrayList and Vector are implementations of the List interface in Java, and they have some similarities, but there are key differences between them. Here are the main differences:
+
+Synchronization:
+
+ArrayList: Not synchronized. Multiple threads can access an ArrayList object concurrently, which may lead to issues in a multithreaded environment unless external synchronization is applied.
+Vector: Synchronized. All methods of a Vector are synchronized, making it thread-safe. This ensures that multiple threads cannot modify the Vector concurrently without external synchronization.
+Performance:
+
+ArrayList: More efficient in a single-threaded environment because it is not burdened with the overhead of synchronization. In scenarios where synchronization is not needed, ArrayList may offer better performance.
+Vector: Due to synchronization, it can be slower than ArrayList in a single-threaded environment. However, in a multithreaded environment, the synchronization provided by Vector can be beneficial.
+Growth of Internal Array:
+ArrayList: Doubles the size of its internal array when it needs to grow. This can result in more efficient memory usage.
+
+Vector: Increases the size of its internal array by a fixed percentage (usually doubling), which can lead to less efficient memory usage compared to ArrayList.
+Legacy:
+ArrayList: Introduced in Java 1.2 as part of the Java Collections Framework.
+Vector: Part of the original version of Java (Java 1.0). It is considered a legacy class, and in modern Java development, ArrayList is often preferred.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+____________________________________________________________________________________
