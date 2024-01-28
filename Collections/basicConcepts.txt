@@ -1,0 +1,5 @@
+1. Collection framework was introduced in JDK 1.2
+2. The Collection interface (java.util.Collection) and Map interface (java.util.Map) are the two main “root” interfaces of Java collection classes.
+3. java collection is a framework where set of classes and interface is already made.
+    we just have to implement it in our class or code.
+4. Before JDK 1.2, vectors arrays were used .
