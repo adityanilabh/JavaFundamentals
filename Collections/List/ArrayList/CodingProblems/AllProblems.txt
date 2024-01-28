@@ -1,0 +1,43 @@
+1.Write a Java program to create a new array list, add some colors (string) and print out the collection. Go to the editor
+
+2. Write a Java program to iterate through all elements in a array list. Go to the editor
+
+3. Write a Java program to insert an element into the array list at the first position. Go to the editor
+
+4. Write a Java program to retrieve an element (at a specified index) from a given array list. Go to the editor
+
+5. Write a Java program to update specific array element by given element. Go to the editor
+
+6. Write a Java program to remove the third element from a array list. Go to the editor
+
+7. Write a Java program to search an element in a array list. Go to the editor
+
+8. Write a Java program to sort a given array list. Go to the editor
+
+9. Write a Java program to copy one array list into another. Go to the editor
+
+10. Write a Java program to shuffle elements in a array list. Go to the editor
+
+11. Write a Java program to reverse elements in a array list. Go to the editor
+
+12. Write a Java program to extract a portion of a array list. Go to the editor
+
+13. Write a Java program to compare two array lists. Go to the editor
+
+14. Write a Java program of swap two elements in an array list. Go to the editor
+
+15. Write a Java program to join two array lists. Go to the editor
+
+16. Write a Java program to clone an array list to another array list. Go to the editor
+n
+17. Write a Java program to empty an array list. Go to the editor
+
+18. Write a Java program to test an array list is empty or not. Go to the editor
+
+19. Write a Java program to trim the capacity of an array list the current list size. Go to the editor
+n
+20. Write a Java program to increase the size of an array list. Go to the editor
+
+21. Write a Java program to replace the second element of a ArrayList with the specified element. Go to the editor
+
+22. Write a Java program to print all the elements of a ArrayList using the position of the elements.

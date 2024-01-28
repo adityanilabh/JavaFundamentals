@@ -1,0 +1,88 @@
+How ArrayList work?
+--ArrayList in Java is an implementation of the List interface, and it is based on a dynamic array that grows or shrinks in size as elements are added or removed. The underlying data structure for ArrayList is an array.
+
+Here's how ArrayList works internally:
+
+-----Initialization:
+
+---When you create an ArrayList, it starts with an initial capacity (the size of the internal array). By default, this capacity is set to 10 elements, but you can specify a different initial capacity when creating an ArrayList.
+-------------Adding Elements:
+
+---When you add an element to an ArrayList using the add method, the element is placed in the next available slot in the internal array.
+
+--If the internal array is full when adding a new element, ArrayList creates a new array with a larger capacity (usually double the current capacity) and copies the elements from the old array to the new one. This process is known as "resizing."
+Random Access:
+
+--ArrayList provides fast random access to elements by their index. Accessing an element by index is a constant-time operation (O(1)) because it involves simple arithmetic to calculate the memory address of the element.
+
+---------Removing Elements:
+
+When you remove an element from an ArrayList using the remove method, the remaining elements are shifted to fill the gap.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+
+ArrayList is not syncronised. It's equivalent is vector in java.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DIFFERENT WAYS TO IMPLEMENT ARRAYLIST: 
+
+Standard ArrayList:
+java
+Copy code
+import java.util.ArrayList;
+
+// Creating an ArrayList of Strings
+ArrayList<String> stringList = new ArrayList<>();
+
+// Adding elements to the ArrayList
+stringList.add("Element 1");
+stringList.add("Element 2");
+2. Initializing with Elements:
+java
+Copy code
+import java.util.ArrayList;
+import java.util.Arrays;
+
+// Initializing ArrayList with elements
+ArrayList<Integer> integerList = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+3. Using Diamond Operator (Java 7+):
+java
+Copy code
+import java.util.ArrayList;
+
+// Using the diamond operator (Java 7+)
+ArrayList<Double> doubleList = new ArrayList<>();
+4. List Interface (Polymorphism):
+java
+Copy code
+import java.util.List;
+import java.util.ArrayList;
+
+// Using List interface for polymorphism
+List<Character> charList = new ArrayList<>();
+5. Copying from Another List:
+java
+Copy code
+import java.util.ArrayList;
+import java.util.List;
+
+// Copying from another List
+List<String> originalList = new ArrayList<>();
+originalList.add("One");
+originalList.add("Two");
+
+ArrayList<String> copiedList = new ArrayList<>(originalList);
+6. Java 10+ Using List.of:
+java
+Copy code
+import java.util.List;
+
+// Using List.of in Java 10+
+List<String> immutableList = List.of("Apple", "Banana", "Orange");
+ArrayList<String> mutableList = new ArrayList<>(immutableList);
+Note:
+The ArrayList class itself provides various constructors and methods for adding, removing, and manipulating elements.
+
+The examples above demonstrate different ways to create an ArrayList and initialize it with elements.
+
+Choose the approach that best fits your specific use case and coding style. The most common approach is to use the standard ArrayList class.
