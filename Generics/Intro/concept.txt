@@ -1,7 +1,3 @@
-How  to study Generics?
-Answer: Generics ----> generic all parameters: (V,E,K,T)---->genericsInClassAndInterface----->genericsInCollection.
-
-
 
 
 What is Generic? why use generics?
