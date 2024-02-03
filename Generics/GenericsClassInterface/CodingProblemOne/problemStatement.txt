@@ -1,0 +1,6 @@
+Design a generic stack with the following functionalities:
+
+Push an element onto the stack.
+Pop the top element from the stack.
+Check if the stack is empty.
+Display the top element without removing it.

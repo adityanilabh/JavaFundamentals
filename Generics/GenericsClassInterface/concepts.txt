@@ -1,0 +1,25 @@
+important topics for generics in class and interface: 
+------------Using Generics in Classes
+Terms:
+Type Argument
+Parameterized Type
+Type Erasure
+----------------
+Topics:
+Creating Generic Classes
+Instantiating Generic Classes with Type Arguments
+Type Erasure and Raw Type
+------------------
+
+--------Using Generics in Interfaces
+Terms:
+Bounded Type Parameter
+Wildcard
+Upper Bounded Wildcard
+Lower Bounded Wildcard
+Unbounded Wildcard
+------------
+Topics:
+Creating Generic Interfaces
+Bounded Type Parameters in Interfaces
+Wildcards in Generics
