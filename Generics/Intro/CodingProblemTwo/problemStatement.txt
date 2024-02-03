@@ -1,4 +1,0 @@
-In this problem, i am creating a custom made array. The feature of array is that
-- we can initialise the custom made array in any data type
--  insert element of any data type( in data type it was initialised).
-- get the element of custom array of any data type.

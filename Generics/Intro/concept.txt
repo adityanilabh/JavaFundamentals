@@ -1,3 +1,9 @@
+How  to study Generics?
+Answer: Generics ----> generic all parameters: (V,E,K,T)---->genericsInClassAndInterface----->genericsInCollection.
+
+
+
+
 What is Generic? why use generics?
 Generics means parameterized types. The idea is to allow type 
 (Integer, String, … etc., and user-defined types) to be a parameter to methods, 
@@ -11,3 +17,9 @@ refer to any object. These features lack type safety. Generics add that type of
 safety feature. We will discuss that type of safety feature in later examples.
 ---------------------------------------------------------------------------
 all the wrapper class are made with generic data tyeps.
+==========================================================================
+
+TYPE SAFETY IN JAVA GENERICS: Type Safety: With generics, 
+you can write code that is both flexible and type-safe. Type safety ensures that 
+you catch type-related errors at compile time rather than at runtime.
+============================================================================
