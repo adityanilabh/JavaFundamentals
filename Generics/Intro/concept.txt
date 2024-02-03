@@ -9,3 +9,5 @@ on a parameterized type is a generic entity.
 The Object is the superclass of all other classes, and Object reference can 
 refer to any object. These features lack type safety. Generics add that type of 
 safety feature. We will discuss that type of safety feature in later examples.
+---------------------------------------------------------------------------
+all the wrapper class are made with generic data tyeps.
