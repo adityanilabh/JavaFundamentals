@@ -1,4 +1,9 @@
 How  to study Generics?
 Answer: Generics ----> generic all parameters: (V,E,K,T)---->genericsInClassAndInterface----->genericsInCollection.
 
+Important point: 
+Generics were introduced firstly for type casting of collections.
+Later it was introduced to classes, interface object etc.
 
+So learn why generics came(intro), then learn about class methods,and interface,
+learn about wildcards adn then jump to collections.
