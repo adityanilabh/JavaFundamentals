@@ -1,0 +1,5 @@
+
+Sure, let's create an example using upper-bounded generics. Suppose we have a 
+class representing a team of players, and we want to calculate the total skill 
+level of the players in the team. Players can have different types of skills 
+represented by numbers. Here's how you might implement it:

@@ -1,0 +1,43 @@
+An upper-bounded wildcard in Java is denoted by the <? extends T> syntax, where T is a specific type. It allows you to accept a parameterized type or any subtype of that type. Here are the key points about upper-bounded wildcards:
+
+Syntax:
+
+<? extends T>: Represents an upper-bounded wildcard. It means that the type can be T or any subtype of T.
+Use Cases:
+
+It is used when you want to work with a parameterized type or its subtypes without knowing the exact subtype.
+Example:
+
+java
+Copy code
+public static double sumOfNumbers(List<? extends Number> numbers) {
+    double sum = 0.0;
+    for (Number number : numbers) {
+        sum += number.doubleValue();
+    }
+    return sum;
+}
+In this example, the method sumOfNumbers accepts a list of numbers or any subtype of Number.
+
+Benefits:
+
+Provides flexibility in handling a family of related types.
+Allows you to work with different subtypes without being tied to a specific one.
+Limitation:
+
+We can only access methods declared in the Object class through an upper-bounded 
+wildcard.
+Here's how you might use it in code:
+
+List<Integer> integers = Arrays.asList(1, 2, 3);
+List<Double> doubles = Arrays.asList(1.5, 2.5, 3.5);
+
+// Valid calls with upper-bounded wildcard
+double sum1 = sumOfNumbers(integers);
+double sum2 = sumOfNumbers(doubles);
+
+System.out.println("Sum of integers: " + sum1);
+System.out.println("Sum of doubles: " + sum2);
+
+In this example, the method sumOfNumbers can accept lists of integers, 
+doubles, or any other subtype of Number.
