@@ -1,5 +1,5 @@
 How  to study Generics?
-Answer: Generics ----> generic all parameters: (V,E,K,T)---->genericsInClassAndInterface----->genericsInCollection.
+Answer: Generics ----> generic all parameters: (V,E,K,T)---->genericsInClassAndInterface----->genericsInCollection.---> wildcards--->bounded type parameters.
 
 Important point: 
 Generics were introduced firstly for type casting of collections.

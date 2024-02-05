@@ -16,6 +16,8 @@ public class CaseScenerio{
             List<Integer>newInteger= new ArrayList<>(3);
             // now for above case, we have specified that list will only take integer.
             List<String>newString= new ArrayList<>(2);
+            newString.add("hey");
+            newInteger.add(5);
             //now for above case, we have specified that list will only take String.
        }
 }

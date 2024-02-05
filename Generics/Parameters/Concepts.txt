@@ -1,0 +1,30 @@
+In Java generics, you can use parameters to create more flexible and 
+reusable classes, interfaces, and methods. Here are some key points about 
+generic parameters:
+==========================================================================
+Single Parameter (<T>):
+
+Using a single generic parameter, such as <T>, allows you to create a class, 
+interface, or method that can work with a single type. This is useful when you 
+want the flexibility to work with different types in a type-safe manner.
+==========================================================================
+Multiple Parameters (<T, U>):
+
+Using multiple generic parameters, like <T, U>, extends the flexibility to work
+with two or more types simultaneously. This is helpful in scenarios where your 
+logic involves interactions between different types.
+Example : Box<String,Integer>...
+===========================================================================
+Wildcard (<?>, <? extends T>, <? super T>):
+
+Wildcards provide additional flexibility by allowing you to represent an unknown
+type or a type that extends or superclasses a specific type. Wildcards are often
+used when you want to design a class or method that works with a family of related
+types.
+============================================================================
+Bounded Type Parameters (<T extends SomeType>):
+
+Bounded type parameters restrict the types that can be used as arguments. You can
+specify that T must be a subtype of a certain class or implement a specific
+inerface. This is useful when you want to ensure certain capabilities or
+properties for the type parameter.
