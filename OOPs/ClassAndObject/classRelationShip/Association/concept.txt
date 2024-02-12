@@ -1,0 +1,16 @@
+Association:
+Association represents a relationship between two classes. It describes how objects of one class are related to objects of another class.
+
+One-to-One (1:1) Association:
+
+In a one-to-one association, each instance of one class is associated with exactly one instance of another class, and vice versa.
+Example: A Person class may be associated with an Address class, where each person has exactly one address, and each address belongs to exactly one person.
+One-to-Many (1:N) Association:
+
+In a one-to-many association, an instance of one class is associated with multiple instances of another class, but each instance of the second class is associated with exactly one instance of the first class.
+Example: A Department class may be associated with multiple instances of an Employee class, where each employee belongs to exactly one department.
+Many-to-Many (N:M) Association:
+
+In a many-to-many association, instances of one class are associated with multiple instances of another class, and vice versa.
+This type of association is usually implemented using an intermediate associative class or table.
+Example: A Student class may be associated with multiple instances of a Course class, and each course may have multiple students enrolled.
