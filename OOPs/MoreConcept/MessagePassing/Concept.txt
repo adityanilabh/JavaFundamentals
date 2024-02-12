@@ -1,0 +1,27 @@
+Message passing in Java is a fundamental concept used for communication 
+between objects. It allows objects to interact with each other by invoking 
+methods on one another, passing data or messages as parameters. This communication 
+mechanism enables objects to collaborate and perform tasks collectively, contributing
+ to the overall functionality of a Java program.
+==================================================================================
+Why is Message Passing Used?
+Modularity and Encapsulation: Message passing promotes modularity and encapsulation 
+in object-oriented programming. Each object encapsulates its state and behavior, 
+exposing only the necessary methods for communication. This ensures clear separation 
+of concerns and helps manage complexity.
+
+Loose Coupling: Message passing facilitates loose coupling between objects. 
+Objects communicate through well-defined interfaces (method signatures), reducing 
+dependencies and enhancing flexibility. Changes in one object don't necessarily 
+require changes in others, as long as the interface remains unchanged.
+
+Flexibility and Extensibility: Message passing allows for dynamic binding and 
+polymorphism. It enables method calls to be resolved at runtime based on the actual 
+type of the object being referenced (dynamic dispatch), promoting flexibility and 
+extensibility in object-oriented designs.
+
+Concurrency and Parallelism: In multi-threaded or distributed environments, message 
+passing is used for communication between concurrent or distributed entities. It 
+provides a safe and synchronized way for threads or processes to exchange data and 
+synchronize their activities.
+=============================================================================
