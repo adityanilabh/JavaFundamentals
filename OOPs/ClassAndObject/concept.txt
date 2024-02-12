@@ -1,0 +1,27 @@
+Using the new Keyword:
+
+This is the most common method.
+Syntax: ClassName objectName = new ClassName();
+Example: Person person = new Person();
+
+
+Using Object Cloning:
+
+This method creates a new object by copying an existing object.
+Implemented by overriding the clone() method from the Object class.
+
+
+Using Reflection:
+
+Reflection allows dynamic class instantiation at runtime.
+You can use Class.newInstance() or Constructor.newInstance() methods.
+
+Using Deserialization:
+
+Objects can be created by deserializing them from a stream.
+Requires implementing the Serializable interface and providing a proper serialization mechanism.
+
+
+Using Static Factory Method:
+
+Similar to the factory method pattern but with static methods.
